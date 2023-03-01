@@ -16,8 +16,8 @@
 		9D0FAF3329AF3D6600B16381 /* FirebaseFormTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D0FAF3229AF3D6600B16381 /* FirebaseFormTests.swift */; };
 		9D0FAF3D29AF3D6600B16381 /* FirebaseFormUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D0FAF3C29AF3D6600B16381 /* FirebaseFormUITests.swift */; };
 		9D0FAF3F29AF3D6600B16381 /* FirebaseFormUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D0FAF3E29AF3D6600B16381 /* FirebaseFormUITestsLaunchTests.swift */; };
-		9D0FAF4C29AF448C00B16381 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9D0FAF4B29AF448C00B16381 /* GoogleService-Info.plist */; };
 		9D0FAF4F29AF489600B16381 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 9D0FAF4E29AF489600B16381 /* FirebaseFirestore */; };
+		9D0FAF5129AF5F3000B16381 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9D0FAF5029AF5F3000B16381 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,7 +51,7 @@
 		9D0FAF3829AF3D6600B16381 /* FirebaseFormUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FirebaseFormUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D0FAF3C29AF3D6600B16381 /* FirebaseFormUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseFormUITests.swift; sourceTree = "<group>"; };
 		9D0FAF3E29AF3D6600B16381 /* FirebaseFormUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseFormUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		9D0FAF4B29AF448C00B16381 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		9D0FAF5029AF5F3000B16381 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +103,7 @@
 		9D0FAF1A29AF3D6300B16381 /* FirebaseForm */ = {
 			isa = PBXGroup;
 			children = (
+				9D0FAF5029AF5F3000B16381 /* GoogleService-Info.plist */,
 				9D0FAF1B29AF3D6300B16381 /* AppDelegate.swift */,
 				9D0FAF1D29AF3D6300B16381 /* SceneDelegate.swift */,
 				9D0FAF1F29AF3D6300B16381 /* ViewController.swift */,
@@ -110,7 +111,6 @@
 				9D0FAF2429AF3D6600B16381 /* Assets.xcassets */,
 				9D0FAF2629AF3D6600B16381 /* LaunchScreen.storyboard */,
 				9D0FAF2929AF3D6600B16381 /* Info.plist */,
-				9D0FAF4B29AF448C00B16381 /* GoogleService-Info.plist */,
 			);
 			path = FirebaseForm;
 			sourceTree = "<group>";
@@ -243,6 +243,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9D0FAF2829AF3D6600B16381 /* LaunchScreen.storyboard in Resources */,
+				9D0FAF5129AF5F3000B16381 /* GoogleService-Info.plist in Resources */,
 				9D0FAF2529AF3D6600B16381 /* Assets.xcassets in Resources */,
 				9D0FAF2329AF3D6300B16381 /* Main.storyboard in Resources */,
 			);
@@ -259,7 +260,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9D0FAF4C29AF448C00B16381 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
