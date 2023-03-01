@@ -58,6 +58,9 @@
                                         <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="Almacenar"/>
+                                        <connections>
+                                            <action selector="btnSave:" destination="BYZ-38-t0r" eventType="touchUpInside" id="I4w-Yr-PnO"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ewx-yR-7yp">
                                         <rect key="frame" x="0.0" y="414.33333333333337" width="266" height="34.333333333333314"/>
@@ -65,6 +68,9 @@
                                         <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="Recuperar"/>
+                                        <connections>
+                                            <action selector="btnSearhc:" destination="BYZ-38-t0r" eventType="touchUpInside" id="oDU-BX-bNW"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ofm-KN-Hn7">
                                         <rect key="frame" x="0.0" y="479.66666666666663" width="266" height="34.333333333333371"/>
@@ -72,6 +78,9 @@
                                         <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="Eliminar"/>
+                                        <connections>
+                                            <action selector="btnDeleted:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ZcU-co-vkA"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <constraints>
@@ -95,7 +104,9 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="tvExpect" destination="0YZ-IM-wWr" id="cOm-bc-kV8"/>
+                        <outlet property="tvExpect" destination="0YZ-IM-wWr" id="aNo-cB-IgT"/>
+                        <outlet property="tvName" destination="4HE-Fj-WYb" id="qIL-RL-Zbu"/>
+                        <outlet property="tvmail" destination="a66-H1-sz5" id="cFY-yP-47k"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
